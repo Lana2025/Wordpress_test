@@ -190,6 +190,14 @@ Version: 1.0
     margin-right: 40px;
     position: relative;
  }
+ .navbar-expand-md .navbar-nav .nav-link {
+	font-size: 16px;
+	color: #667085;
+    font-family: 'Inter';
+	display: block;
+	padding: 2px 0;
+	position: relative;
+}
  
  .header__menu ul li.active a:after {
     -webkit-transform: scale(1);
