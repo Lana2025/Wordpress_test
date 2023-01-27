@@ -59,6 +59,7 @@ add_filter( 'excerpt_length', 'tp_custom_excerpt_length', 999 );
 
 add_action( 'init', 'register_shortcodes');
 
-
+/* include Nav Walker file */
+require_once('inc/bs5-navwalker.php');
 
 ?>
